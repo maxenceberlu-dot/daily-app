@@ -11,7 +11,6 @@ interface Note {
 
 const STORAGE_KEY = "daily-app-notes";
 const COLORS = ["#fef3c7", "#dbeafe", "#dcfce7", "#fce7f3", "#f3e8ff"];
-const DARK_COLORS = ["#78350f", "#1e3a5f", "#14532d", "#831843", "#581c87"];
 
 export default function QuickNotes() {
   const [notes, setNotes] = useState<Note[]>([]);
